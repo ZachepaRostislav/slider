@@ -1,0 +1,20 @@
+body {
+  background-color: bisque;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+
+img {
+  display: block;
+  width: 85px;
+  height: 85px;
+  height: auto;
+}
