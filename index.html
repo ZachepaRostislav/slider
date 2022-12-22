@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -12,49 +18,69 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="section__customer-reviews">
-      <h2>Customer Reviews</h2>
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img
-              srcset="./img/first@1x.png 1x, ./img/first@2x.png 2x"
-              src="./img/first@1x.png"
-              alt="first"
-              width="85"
-              height="85"
-              loading="lazy"
-            />
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            class="customer-reviews__img"
+            srcset="./img/first@1x.png 1x, ./img/first@2x.png 2x"
+            src="./img/first@1x.png"
+            alt="first"
+            width="85"
+            height="85"
+            loading="lazy"
+          />
+          <div class="customer-reviews__thumb">
+            <p class="customer-reviews__comment">
+              I love visiting your cafe. You prepare the most delicious ice
+              cream in Los Angeles! In addition, you have beautiful serving,
+              cozy atmosphere and polite staff.
+            </p>
           </div>
-          <div class="swiper-slide">
-            <img
-              srcset="./img/second@1x.png 1x, ./img/second@2x.png 2x"
-              src="./img/second@1x.png"
-              alt="second"
-              width="85"
-              height="85"
-              loading="lazy"
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              srcset="./img/third@1x.png 1x, ./img/third@2x.png 2x"
-              src="./img/third@1x.png"
-              alt="third"
-              width="85"
-              height="85"
-              loading="lazy"
-            />
-          </div>
-          ...
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+        <div class="swiper-slide">
+          <img
+            class="customer-reviews__img"
+            srcset="./img/second@1x.png 1x, ./img/second@2x.png 2x"
+            src="./img/second@1x.png"
+            alt="second"
+            width="85"
+            height="85"
+            loading="lazy"
+          />
+          <div class="customer-reviews__thumb">
+            <p class="customer-reviews__comment">
+              I love visiting your cafe. You prepare the most delicious ice
+              cream in Los Angeles! In addition, you have beautiful serving,
+              cozy atmosphere and polite staff.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="customer-reviews__img"
+            srcset="./img/third@1x.png 1x, ./img/third@2x.png 2x"
+            src="./img/third@1x.png"
+            alt="third"
+            width="85"
+            height="85"
+            loading="lazy"
+          />
+          <div class="customer-reviews__thumb">
+            <p class="customer-reviews__comment">
+              I love visiting your cafe. You prepare the most delicious ice
+              cream in Los Angeles! In addition, you have beautiful serving,
+              cozy atmosphere and polite staff.
+            </p>
+          </div>
+        </div>
+        ...
       </div>
-    </section>
-
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
   </body>
