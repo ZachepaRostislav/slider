@@ -131,6 +131,11 @@ img {
   padding: 40px 0;
 }
 
+.ice-cream__thumb {
+  max-width: 1013px;
+  margin: 0 auto 80px;
+}
+
 .customer-reviews__img {
   margin: 0 auto;
 }
@@ -192,14 +197,20 @@ img {
     width: 705px;
     border-radius: 24px;
   }
+  .ice-cream__thumb {
+    margin-bottom: 100px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .customer-reviews__thumb {
-    width: 908px;
+    width: 968px;
     border-radius: 24px;
     padding: 43px 109px;
   }
   .customer-reviews__comment {
     font-size: 16px;
+  }
+  .ice-cream__thumb {
+    margin-bottom: 140px;
   }
 }
